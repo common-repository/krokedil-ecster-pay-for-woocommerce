@@ -1,0 +1,40 @@
+#customer_details,
+#order_review_heading,
+#order_review,
+/* And, because some themes thought changing CSS selectors was a good idea */
+.woo-shipping,
+.woo-billing,
+.order-review,
+.checkout-sidebar {
+	display: none;
+}
+
+.ecster-deselected #customer_details,
+.ecster-deselected #order_review_heading,
+.ecster-deselected #order_review,
+/* And, because some themes thought changing CSS selectors was a good idea */
+.ecster-deselected .woo-shipping,
+.ecster-deselected .woo-billing,
+.ecster-deselected .order-review,
+.ecster-deselected .checkout-sidebar {
+	display: block;
+}
+
+.ecster-selected .woocommerce {
+	max-width: 840px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#ecster-pay-ctr {
+	display: none;
+}
+
+.ecster-selected #ecster-pay-ctr {
+	display: block;
+}
+
+/* Flatsome */
+.ecster-selected .row.pt-0 {
+	display: none;
+}

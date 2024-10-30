@@ -1,0 +1,33 @@
+@media (min-width: 880px) {
+	.ecster-settings-content {
+		width: 70%;
+		float: left;
+		padding: 0 2% 0 0;
+		border-right: 1px solid #ccc;
+		box-sizing: border-box;
+	}
+	
+	.ecster-settings-sidebar {
+		width: 28%;
+		max-width: 350px;
+		margin-left: 2%;
+		float: left;
+		box-sizing: border-box;
+	}
+}
+
+.ecster-settings:after {
+	content: '';
+	display: block;
+	clear: both;
+}
+
+.ecster-settings h4 {
+	font-size: 1.3em;
+	margin: 1.33em 0 .5em 0;
+}
+
+.ecster-settings ul {
+    list-style: disc;
+    margin: 0 0 20px 20px;
+}
